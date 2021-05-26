@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electronics Club | Home</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+    @import url(./style.css);
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    main article {
+      color: #ddd;
+      box-sizing: border-box;
+      line-height: 1.5rem;
+      padding: 5rem;
+      text-align: justify;
+    }
+    article h2 {
+      color: #f15925;
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 1.8rem;
+    }
+    article p {
+      font-family: "Ubuntu", sans-serif;
+      font-size: 1.2rem;
+      font-weight: lighter;
+      color: #ddd;
+    }
+
+    article {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .youtube {
+      width: 70%;
+      max-width: 640px;
+      margin: 5rem auto;
+      margin-bottom: 10rem;
+    }
+
+    .vidwrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 30px;
+      height: 0;
+      overflow: hidden;
+    }
+    .vidwrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    @media screen and (max-width: 900px) {
+      main article {
+        /* width: 100%; */
+        padding: 3rem 3rem;
+      }
+      article h2 {
+        font-size: 1.8rem;
+      }
+      article p {
+        font-size: 1.1rem;
+      }
+      .youtube {
+        margin-bottom: 5rem;
+      }
+    }
+    @media screen and (max-width: 400px) {
+      .youtube {
+        width: 80%;
+        padding: 0;
+        margin-bottom: 3rem;
+      }
+      main article {
+        /* width: 100%; */
+        padding: 3rem 2rem;
+      }
+      article h2 {
+        font-size: 1.5rem;
+      }
+      article p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+  <body>
+    <!-- ---------------------------menubar---------------------------------- -->
+    <header>
+      <div class="logo">
+        <a href="./index.html">
+          <img src="./elecclublogo.svg" alt="Logo" />
+        </a>
+      </div>
+
+      <h1 class="logotext"><a href="./index.html"> Electronics Club</a></h1>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./team.html">Team</a></li>
+          <li><a href="./alumni.html">Alumni</a></li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span class="navicon"></span>
+      </label>
+    </header>
+    <!-- ----------------------------imgslider------------------------------- -->
+    <section class="slidercontainer">
+      <div class="slider">
+        <div class="slide active">
+          <img
+            src="./photos_Electrocoreteam-20210515T131631Z-001/grp/IMG_0364.JPG"
+            alt=""
+          />
+          <div class="info">
+            <h2>can put some text in css display is none</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="./photos_Electrocoreteam-20210515T131631Z-001/grp/IMG-20210512-WA0008.jpg"
+            alt=""
+          />
+          <div class="info">
+            <h2>can put some text in css display is none</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="./photos_Electrocoreteam-20210515T131631Z-001/grp/IMG-20210512-WA0020.jpg"
+            alt=""
+          />
+          <div class="info">
+            <h2>can put some text in css display is none</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="./photos_Electrocoreteam-20210515T131631Z-001/grp/20210409_185822.jpg"
+            alt=""
+          />
+          <div class="info">
+            <h2>can put some text in css display is none</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="./photos_Electrocoreteam-20210515T131631Z-001/grp/IMG_20210414_234657.jpg"
+            alt=""
+          />
+          <div class="info">
+            <h2>can put some text in css display is none</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="navigation">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="chevron-left"
+            class="svg-inline--fa fa-chevron-left prev-btn"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 320 512"
+          >
+            <path
+              fill="currentColor"
+              d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"
+            ></path>
+          </svg>
+          <!-- <i class="fas fa-chevron-left prev-btn"></i> -->
+          <!-- <i class="fas fa-chevron-right next-btn"></i> -->
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="chevron-right"
+            class="svg-inline--fa fa-chevron-right next-btn"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 320 512"
+          >
+            <path
+              fill="currentColor"
+              d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+            ></path>
+          </svg>
+        </div>
+        <div class="navigation-visibility">
+          <div class="slide-icon active"></div>
+          <div class="slide-icon"></div>
+          <div class="slide-icon"></div>
+          <div class="slide-icon"></div>
+          <div class="slide-icon"></div>
+        </div>
+      </div>
+      <script type="text/javascript">
+        const slider = document.querySelector(".slider");
+        const nextBtn = document.querySelector(".next-btn");
+        const prevBtn = document.querySelector(".prev-btn");
+        const slides = document.querySelectorAll(".slide");
+        const slideIcons = document.querySelectorAll(".slide-icon");
+        const numberOfSlides = slides.length;
+        var slideNumber = 0;
+
+        //image slider next button
+        nextBtn.addEventListener("click", () => {
+          slides.forEach((slide) => {
+            slide.classList.remove("active");
+          });
+          slideIcons.forEach((slideIcon) => {
+            slideIcon.classList.remove("active");
+          });
+
+          slideNumber++;
+
+          if (slideNumber > numberOfSlides - 1) {
+            slideNumber = 0;
+          }
+
+          slides[slideNumber].classList.add("active");
+          slideIcons[slideNumber].classList.add("active");
+        });
+
+        //image slider previous button
+        prevBtn.addEventListener("click", () => {
+          slides.forEach((slide) => {
+            slide.classList.remove("active");
+          });
+          slideIcons.forEach((slideIcon) => {
+            slideIcon.classList.remove("active");
+          });
+
+          slideNumber--;
+
+          if (slideNumber < 0) {
+            slideNumber = numberOfSlides - 1;
+          }
+
+          slides[slideNumber].classList.add("active");
+          slideIcons[slideNumber].classList.add("active");
+        });
+
+        //image slider autoplay
+        var playSlider;
+
+        var repeater = () => {
+          playSlider = setInterval(function () {
+            slides.forEach((slide) => {
+              slide.classList.remove("active");
+            });
+            slideIcons.forEach((slideIcon) => {
+              slideIcon.classList.remove("active");
+            });
+
+            slideNumber++;
+
+            if (slideNumber > numberOfSlides - 1) {
+              slideNumber = 0;
+            }
+
+            slides[slideNumber].classList.add("active");
+            slideIcons[slideNumber].classList.add("active");
+          }, 4000);
+        };
+        repeater();
+
+        //stop the image slider autoplay on mouseover
+        slider.addEventListener("mouseover", () => {
+          clearInterval(playSlider);
+        });
+
+        //start the image slider autoplay again on mouseout
+        slider.addEventListener("mouseout", () => {
+          repeater();
+        });
+      </script>
+    </section>
+    <!-- ---------------------------------main---------------------------------- -->
+    <main>
+      <section class="articles">
+        <article>
+          <h2>About Us</h2>
+          <p>
+            The Electronics Club aims to provide students a platform and
+            resources to gain practical skills and realize projects. We strive
+            to teach and help students acquire new skills in an era of rapidly
+            evolving technology. We believe in coming up with projects that are
+            innovative and tackle real life problems. To achieve these
+            objectives we conduct various lectures, workshops and mentorship
+            programs to help students realize their projects. The mission of the
+            club is to expose students to challenges and new technologies in the
+            field of electronics and thus to nurture and develop their skill set
+            in this arena. Regular meetings and mentorship programs will
+            definitely help students to achieve their goals. The emphasis is on
+            experimenting and learning, no experience is necessary but eagerness
+            to learn is essential.
+          </p>
+        </article>
+        <article class="second">
+          <h2>What we do?</h2>
+          <div class="secondtext">
+            <p>
+              &bull;We help students to acquire and develop new skill-sets by
+              conducting various lectures and workshops. <br />
+
+              &bull; We motivate and guide them to come up with innovative
+              projects that tackle real-life problems. <br />
+
+              &bull; We provide resources and the technical know-how to realize
+              and shape their projects. <br />
+
+              &bull; Through regular meetings and sessions we improve students’
+              technical and leadership skills.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section class="youtube">
+        <div class="vidwrapper">
+          <iframe
+            src="https://www.youtube.com/embed/3QSezU00_6s"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <!-- ----------------------------footer---------------------------------- -->
+    <section class="footer" data-aos="fade-up" data-aos-duration="500">
+      <div class="findus"><h2>Find Us</h2></div>
+      <!-- ---------------------social icons start--------------------- -->
+
+      <div class="foot-socials-container">
+        <div class="facebook footlogo">
+          <a href="https://www.facebook.com/electronics.iitg" target="_blank">
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fab"
+              data-icon="facebook-f"
+              class="svg-inline--fa fa-facebook-f fa-w-10"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 320 512"
+            >
+              <path
+                fill="currentColor"
+                d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+
+        <div class="youtubelogo footlogo">
+          <a
+            href="https://www.youtube.com/channel/UClPWjFXGdtjKYjZvulnUViw"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fab"
+              data-icon="youtube"
+              class="svg-inline--fa fa-youtube fa-w-18"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 576 512"
+            >
+              <path
+                fill="currentColor"
+                d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+
+        <div class="instagram footlogo">
+          <a
+            href="https://www.instagram.com/electronicsclubiitg/"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fab"
+              data-icon="instagram"
+              class="svg-inline--fa fa-instagram fa-w-14"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <path
+                fill="currentColor"
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <!-- /* ------------------------------------form start------------------------------- */ -->
+      <form
+        id="contact-form"
+        method="post"
+        action="form-handler.php"
+        target="_blank"
+      >
+        <div>
+          <h3>
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="far"
+              data-icon="envelope"
+              class="svg-inline--fa fa-envelope fa-w-16"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="#ddd"
+                d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"
+              ></path>
+            </svg>
+            Contact Us
+          </h3>
+          <br />
+          <p>
+            For any doubts/queries, feel free to contact us at
+            <span>
+              <a
+                href="mailto:electronicsclub@iitg.ac.in"
+                style="text-decoration: none; color: #f15925"
+              >
+                electronicsclub@iitg.ac.in</a
+              >
+            </span>
+            OR drop a message below:
+          </p>
+        </div>
+        <input
+          type="text"
+          name="name"
+          class="form-control"
+          placeholder="Name (required)"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          class="form-control"
+          placeholder="Email Address (required)"
+          required
+        />
+
+        <textarea
+          name="message"
+          class="form-control"
+          placeholder="Message (required)"
+          required
+        ></textarea>
+        <button type="submit" class="form-control-submit" value="Submit">
+          Submit
+        </button>
+      </form>
+
+      <!-- -----------------------------------footer-footer------------------ -->
+      <div class="footer-footer">
+        <div class="techboard">
+          <a
+            href="https://iitg.ac.in/stud/gymkhana/technical/index.html"
+            target="_blank"
+          >
+            <img src="./techincal board.svg" alt="Technical Board,IITG" />
+          </a>
+        </div>
+        <div class="Rahul">Developed by Rahul Agrawal</div>
+        <div class="Kritika">Designed by Kritika Gupta</div>
+        <!-- techboard and made by and therecontacts mostly iitgwebmail id -->
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        delay: 3,
+        // offset: 200,
+        // mirror: true
+      });
+    </script>
+  </body>
+</html>
