@@ -652,19 +652,19 @@ nav a:hover {
   background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
 }
 .card:nth-child(5):before {
-  background-image: url(https://source.unsplash.com/400x300/?nature);
+  background-image: url(https://images.unsplash.com/photo-1663011121514-da5f4d4af01a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2MzA3Njg0Ng&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400);
 }
 .card:nth-child(6):before {
-  background-image: url(https://source.unsplash.com/400x300/?water);
+  background-image: url(https://images.unsplash.com/photo-1518770660439-4636190af475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=400&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit);
 }
 .card:nth-child(7):before {
-  background-image: url(https://source.unsplash.com/400x300/?mountains);
+  background-image: url(https://images.unsplash.com/photo-1485119502162-016e4409beab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1NjkzMDcyOA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400);
 }
 .card:nth-child(8):before {
-  background-image: url(https://source.unsplash.com/400x400/?nature,water,mountains);
+  background-image: url(https://images.unsplash.com/photo-1519500099198-fd81846b8f03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzODU0NTU5Mg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400);
 }
 .card:nth-child(9):before {
-  background-image: url(https://source.unsplash.com/400x300/?space);
+  background-image: url(https://images.unsplash.com/photo-1589652717521-10c0d092dea9?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzNjM2MTY0Ng&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400);
 }
 /* add more blog card bkgrnd images here */
 
